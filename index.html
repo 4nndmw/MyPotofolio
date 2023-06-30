@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ananda Maulana Wahyudi</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link
       rel="stylesheet"
       href="./assets/images/fontawesome-free-6.4.0-web/css/all.min.css"
@@ -15,7 +17,7 @@
     <!-- navigation -->
 
     <nav class="navbar">
-      <a href="#" class="nav-logo">NndDev.</a>
+      <a href="#" class="nav-logo" data-aos="fade-down">NndDev.</a>
       <ul class="nav-menu">
         <li class="nav-item">
           <a href="#home" class="nav-link">Home</a>
@@ -27,13 +29,13 @@
           <a href="#skills" class="nav-link">My Skills</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Blog</a>
+          <a href="./portfolio/index.html" class="nav-link">Portofolio</a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">Contact</a>
         </li>
       </ul>
-      <div class="hamburger">
+      <div class="hamburger" data-aos="fade-right">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -43,12 +45,12 @@
     <!-- end navigation -->
     <div id="home" class="container">
       <div class="date">
-        <h1>
+        <h1 data-aos="fade-down-left">
           Hi, <br />
           I'm <span>Nanda Mw </span> <br />
           Programmer
         </h1>
-        <div class="contact">
+        <div class="contact" data-aos="fade-right">
           <p class="fa-solid fa-envelope">
             <span>anandamaulanaw1850@gmail.com</span>
           </p>
@@ -59,7 +61,7 @@
             <span>Bangkal, Sumenep, Jawa Timur</span>
           </p>
         </div>
-        <div class="icons">
+        <div class="icons" data-aos="fade-up">
           <a href="" class="fa-brands fa-instagram"></a>
           <a class="fa-brands fa-telegram"></a>
           <a href="" class="fa-brands fa-github"></a>
@@ -68,8 +70,8 @@
     </div>
 
     <div id="about" class="page2">
-      <h1>About Me</h1>
-      <p class="a-bout">
+      <h1 data-aos="fade-down">About Me</h1>
+      <p class="a-bout" data-aos="fade-down">
         Seorang nanda yang mempunyai ciri khas tersendiri berkulit kekuningan
         dan berrambut lurus, yang mempunyai tekat menjadi seorang Full Stack Web
         Developer.
@@ -77,39 +79,43 @@
 
       <table>
         <tr>
-          <td>Nama :</td>
-          <td class="list-date">Ananda Maulana Wahyudi</td>
+          <td data-aos="fade-down">Nama :</td>
+          <td data-aos="fade-down" class="list-date">Ananda Maulana Wahyudi</td>
         </tr>
         <tr>
-          <td>Jenis Kelamin :</td>
-          <td class="list-date">Pria</td>
+          <td data-aos="fade-down">Jenis Kelamin :</td>
+          <td data-aos="fade-down" class="list-date">Pria</td>
         </tr>
         <tr>
-          <td>Tempat Tanggal Lahir :</td>
-          <td class="list-date">Sumenep, 31 Maret 2003</td>
+          <td data-aos="fade-down">Tempat Tanggal Lahir :</td>
+          <td data-aos="fade-down" class="list-date">Sumenep, 31 Maret 2003</td>
         </tr>
 
         <tr>
-          <td>Alamat :</td>
-          <td class="list-date">Bangkal, Sumenep, Jawa Timur</td>
+          <td data-aos="fade-down">Alamat :</td>
+          <td data-aos="fade-down" class="list-date">
+            Bangkal, Sumenep, Jawa Timur
+          </td>
         </tr>
         <tr>
-          <td>Email :</td>
-          <td class="list-date">anandamaulanaw1850@gamil.com</td>
+          <td data-aos="fade-down">Email :</td>
+          <td data-aos="fade-down" class="list-date">
+            anandamaulanaw1850@gamil.com
+          </td>
         </tr>
         <tr>
-          <td>Phone :</td>
-          <td class="list-date">+62 812-3399-5872</td>
+          <td data-aos="fade-down">Phone :</td>
+          <td data-aos="fade-down" class="list-date">+62 812-3399-5872</td>
         </tr>
       </table>
 
-      <button><a href=""> Download CV</a></button>
+      <button data-aos="fade-left"><a href=""> Download CV</a></button>
     </div>
 
     <div class="card-content">
-      <h1 class="card-title">What I Do</h1>
+      <h1 class="card-title" data-aos="fade-left">What I Do</h1>
       <div class="card">
-        <div class="card-ctn">
+        <div class="card-ctn" data-aos="fade-down">
           <h1>Web Development</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
@@ -118,7 +124,7 @@
             necessitatibus, minima quidem, nam sed?
           </p>
         </div>
-        <div class="card-ctn">
+        <div class="card-ctn" data-aos="fade-down">
           <h1>UI/UX Designer</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
@@ -127,7 +133,7 @@
             necessitatibus, minima quidem, nam sed?
           </p>
         </div>
-        <div class="card-ctn">
+        <div class="card-ctn" data-aos="fade-down">
           <h1>Mobile Designer</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
@@ -140,65 +146,65 @@
     </div>
 
     <div id="skills" class="skills">
-      <h1>Technical Skills</h1>
-      <div class="skill">
+      <h1 data-aos="fade-left">Technical Skills</h1>
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">HTML</div>
         <div class="skill-bar">
           <div class="skill-per" per="90"></div>
         </div>
       </div>
 
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">CSS</div>
         <div class="skill-bar">
           <div class="skill-per" per="70"></div>
         </div>
       </div>
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">THAILWIND CSS</div>
         <div class="skill-bar">
           <div class="skill-per" per="65"></div>
         </div>
       </div>
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">BOOSTRAP 5</div>
         <div class="skill-bar">
           <div class="skill-per" per="65"></div>
         </div>
       </div>
 
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">Javascript</div>
         <div class="skill-bar">
           <div class="skill-per" per="40"></div>
         </div>
       </div>
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">PHP 8</div>
         <div class="skill-bar">
           <div class="skill-per" per="40"></div>
         </div>
       </div>
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">Laravel 9</div>
         <div class="skill-bar">
           <div class="skill-per" per="10"></div>
         </div>
       </div>
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">EXPRESS JS</div>
         <div class="skill-bar">
           <div class="skill-per" per="10"></div>
         </div>
       </div>
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">NEXT JS</div>
         <div class="skill-bar">
           <div class="skill-per" per="10"></div>
         </div>
       </div>
 
-      <div class="skill">
+      <div class="skill" data-aos="fade-down">
         <div class="skill-name">JQUERY</div>
         <div class="skill-bar">
           <div class="skill-per" per="10"></div>
@@ -206,10 +212,9 @@
       </div>
     </div>
 
-    <div class="porto">
-      <h1>PORTOFOLIO</h1>
-    </div>
-
+    <script>
+      AOS.init();
+    </script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
