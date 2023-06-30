@@ -5,6 +5,7 @@
 :root {
   --color-rd: #a72020;
   --color-blck: #000000;
+  --color-gc:#28282874;
   --color-wt: #eaeaea;
   --color-grey: #b3b3b3bc;
 }
@@ -278,7 +279,7 @@ a {
     margin: 0px 20px;
     margin-top: 30px;
     border-radius: 5px;
-    background-color: #28282874;
+    background-color: var(--color-gc);
     padding: 20px;
   }
   .card-ctn p {
@@ -346,13 +347,16 @@ a {
   }
 
   .footer {
-    height: 10vh;
+    height: 8vh;
     color: var(--color-wt);
-    background-color: var(--color-rd);
+    background-color: var(--color-gc);
   }
-  .footer h1 {
+  .footer span{
+    color: var(--color-rd);
+  }
+  .footer h2 {
     text-align: center;
-    padding: 10px 0px;
+    padding: 15px 0px;
   }
 
   #preloader {
