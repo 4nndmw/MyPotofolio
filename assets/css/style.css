@@ -154,9 +154,9 @@ a {
     background-image: url("../images/nanda.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 840px;
+    background-size: 940px;
     background-attachment: fixed;
-    background-position-x: -60px;
+    background-position-x: -100px;
     background-position-y: -1px;
     color: #eaeaea;
     display: flex;
@@ -362,6 +362,24 @@ a {
     width: 100%;
     position: fixed;
     z-index: 9999;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .container {
+    /* background-color: var( --color-rd); */
+    height: 90vh;
+    /* margin-top: -40px; */
+    width: 100%;
+    background-image: url("../images/nanda.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 840px;
+    background-attachment: fixed;
+    background-position-x: -140px;
+    background-position-y: -1px;
+    color: #eaeaea;
+    display: flex;
+    align-items: center;
   }
 }
 
