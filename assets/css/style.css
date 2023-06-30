@@ -28,7 +28,7 @@ a {
   width: 100%;
   display: flex;
   position: fixed;
-  padding: 1rem 0px;
+  padding: 1.3rem 0px;
   background-color: black;
   justify-content: space-between;
   align-items: center;
@@ -129,10 +129,12 @@ a {
   }
   .bar {
     background-color: #eaeaea;
+    width: 32px;
   }
   .nav-logo {
     margin-left: 20px;
     color: red;
+    font-size: 2.5rem;
   }
   .container {
     /* background-color: red; */
