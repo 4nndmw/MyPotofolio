@@ -154,9 +154,9 @@ a {
     background-image: url("../images/nanda.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 940px;
+    background-size: 950px;
     background-attachment: fixed;
-    background-position-x: -100px;
+    background-position-x: -160px;
     background-position-y: -1px;
     color: #eaeaea;
     display: flex;
