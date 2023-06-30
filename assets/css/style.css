@@ -166,7 +166,8 @@ a {
   }
 
   .page2 {
-    height: 60vh;
+    height: 50vh;
+    /* background-color: red; */
     display: flex;
     align-items: flex-start;
     justify-content: baseline;
