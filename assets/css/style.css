@@ -218,16 +218,11 @@ a {
     align-items: baseline;
     justify-content: baseline;
     flex-direction: column;
-    padding-top: 80px;
+    /* padding-top: 80px; */
   }
   .card-title {
     margin: 0px auto;
-  }
-
-  .card-content h1 {
     color: white;
-    margin-right: auto;
-    /* margin-left: 20px; */
   }
 
   .card-content .card h1 {
