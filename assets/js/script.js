@@ -36,3 +36,27 @@ $(".skill-per").each(function () {
     }
   );
 });
+
+// preloader
+
+// var loader = document.getElementById("preloader");
+
+// window.addEventListener("load", function(){
+//   loader.style.display = "none"; 
+// })
+// var loader = document.getElementById("preloader");
+
+// window.addEventListener("load", function(){
+//   setTimeout(function() {
+//     loader.style.display = "none";
+//   }, 2000); // 2000 milliseconds = 2 seconds
+// });
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+  setTimeout(function() {
+    loader.style.display = "none";
+    // Auto refresh the page
+  }, 800); // 2000 milliseconds = 2 seconds
+});
