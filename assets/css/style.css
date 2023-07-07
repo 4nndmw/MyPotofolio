@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-
 :root {
   --color-rd: #a72020;
   --color-blck: #000000;
@@ -83,7 +81,7 @@ a {
 }
 
 .nav-logo {
-  margin-left: 260px;
+  margin-left: 304px;
   font-size: 2.1rem;
   font-weight: 500;
   color: var(--color-rd);
@@ -103,6 +101,265 @@ a {
 .contact p span {
   margin-left: 10px;
   color: var(--color-grey);
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/nanda.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 920px;
+  background-attachment: fixed;
+  background-position-x: 1010px;
+  background-position-y: -1px;
+  color: #eaeaea;
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 500px;
+  height: 500px;
+}
+
+.date span {
+  color: var(--color-rd);
+}
+
+.date h1 {
+  font-size: 6.6rem;
+}
+.contact {
+  cursor: pointer;
+  overflow-y: hidden;
+  font-size: 1.5rem;
+}
+.contact p {
+  padding: 5px;
+}
+.contact p:hover {
+  padding: 5px;
+  color: var(--color-rd);
+}
+.contact p span {
+  margin-left: 10px;
+  color: var(--color-grey);
+}
+
+.icons {
+  overflow-y: hidden;
+
+  width: 150px;
+  margin-left: -17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icons a {
+  margin-top: 15px;
+  font-size: 2.3rem;
+  color: var(--color-wt);
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--color-wt);
+}
+.icons a:hover {
+  color: var(--color-rd);
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--color-wt);
+}
+
+.page2 {
+  /* background-color: red; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  -webkit-box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
+  box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
+}
+
+.page2 h1 {
+  color: var(--color-wt);
+  font-size: 5rem;
+}
+.a-bout {
+  font-size: 2rem;
+  color: var(--color-grey);
+}
+
+.about-content {
+  gap: 70px;
+  display: flex;
+  max-width: 1200px;
+  /* background-color: red; */
+  align-items: center;
+  /* max-width: 14 00px; */
+}
+.herobout {
+  width: 800px;
+}
+.herobout img {
+  padding-right: 50px;
+  border-radius: 20px;
+  border: 10px solid white;
+}
+table {
+  font-size: 2rem;
+
+  margin-top: 20px;
+  color: var(--color-wt);
+}
+.list-date {
+  padding-left: 20px;
+  color: var(--color-grey);
+}
+td {
+  padding-bottom: 10px;
+}
+
+button {
+  border: 1px solid var(--color-rd);
+  background-color: rgba(255, 0, 0, 0.221);
+  padding: 8px 15px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+button a {
+  color: var(--color-wt);
+}
+.card-content {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  flex-direction: column;
+}
+.card-title {
+  margin: 0px auto;
+  font-size: 4rem;
+  color: var(--color-wt);
+}
+
+.card-content .card h1 {
+  color: var(--color-rd);
+}
+.card {
+  margin: 0px auto;
+  gap: 50px;
+}
+
+.card-ctn {
+  margin: 50px 250px;
+  border-radius: 5px;
+  background-color: var(--color-gc);
+  padding: 20px;
+}
+.card-ctn p {
+  color: var(--color-wt);
+  font-size: 2rem;
+}
+
+.containt-skils {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-items {
+  width: 1000px;
+  gap: 30px;
+}
+
+.skills {
+  height: 120vh;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+.skills h1 {
+  font-size: 4rem;
+  color: var(--color-wt);
+  text-align: center;
+}
+
+.skill-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-wt);
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar {
+  height: 20px;
+  background: #cacaca;
+  border-radius: 8px;
+}
+
+.skill-per {
+  height: 20px;
+  background-color: rgb(157, 8, 8);
+  border-radius: 8px;
+  width: 0;
+  transition: 1s linear;
+  position: relative;
+}
+
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+.footer {
+  height: 8vh;
+  color: var(--color-wt);
+  background-color: var(--color-gc);
+}
+.footer span {
+  color: var(--color-rd);
+}
+.footer h2 {
+  text-align: center;
+  padding: 15px 0px;
+}
+
+#preloader {
+  background: #000 url(../images/preloader1.gif) no-repeat center center;
+  background-size: 70%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
 }
 
 @media only screen and (max-width: 768px) {
@@ -148,9 +405,7 @@ a {
     font-size: 2.5rem;
   }
   .container {
-    /* background-color: var( --color-rd); */
     height: 90vh;
-    /* margin-top: -40px; */
     width: 100%;
     background-image: url("../images/nanda.jpg");
     background-position: center;
@@ -163,6 +418,10 @@ a {
     display: flex;
     align-items: center;
   }
+  .herobout {
+    display: none;
+  }
+
   span {
     color: var(--color-rd);
   }
@@ -225,8 +484,11 @@ a {
 
   .page2 h1 {
     color: var(--color-wt);
+    font-size: 2.4rem;
   }
   .a-bout {
+    font-size: 1rem;
+
     margin-top: 10px;
     margin-right: 20px;
     color: var(--color-grey);
@@ -234,6 +496,7 @@ a {
 
   table {
     margin-top: 20px;
+    font-size: 1rem;
     color: var(--color-wt);
   }
   .list-date {
@@ -370,9 +633,7 @@ a {
 }
 @media only screen and (max-width: 390px) {
   .container {
-    /* background-color: var( --color-rd); */
     height: 90vh;
-    /* margin-top: -40px; */
     width: 100%;
     background-image: url("../images/nanda.jpg");
     background-position: center;
@@ -397,12 +658,17 @@ a {
     -moz-box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
     box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
   }
+  .about-content {
+    gap: 70px;
+    display: flex;
+    align-items: center;
+  }
 
   .page2 h1 {
     color: var(--color-wt);
     padding: 20px 0px;
   }
-    .card-content {
+  .card-content {
     height: 80vh;
     width: 100%;
     display: flex;

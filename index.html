@@ -15,14 +15,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
-    <div id="preloader"></div>
     <!-- navigation -->
 
     <nav class="navbar">
       <a href="#" class="nav-logo" data-aos="fade-down" data-aos-duration="3000"
         >NndDev.</a
       >
-      <ul class="nav-menu">
+      <ul class="nav-menu" data-aos="fade-left" data-aos-duration="3000">
         <li class="nav-item">
           <a href="#home" class="nav-link">Home</a>
         </li>
@@ -54,6 +53,7 @@
           I'm <span>Nanda Mw </span> <br />
           Programmer
         </h1>
+
         <div class="contact" data-aos="fade-right">
           <p
             data-aos="fade-up"
@@ -103,45 +103,56 @@
 
     <div id="about" class="page2">
       <h1 data-aos="fade-down">About Me</h1>
-      <p class="a-bout" data-aos="fade-down">
-        Seorang nanda yang mempunyai ciri khas tersendiri berkulit kekuningan
-        dan berrambut lurus, yang mempunyai tekat menjadi seorang Full Stack Web
-        Developer.
-      </p>
+      <div class="about-content">
+        <div class="herobout">
+          <img src="./assets/images/cam2.jpg" width="400" />
+        </div>
+        <div>
+          <p class="a-bout" data-aos="fade-down">
+            Seorang nanda yang mempunyai ciri khas tersendiri berkulit
+            kekuningan dan berrambut lurus, yang mempunyai tekat menjadi seorang
+            Full Stack Web Developer.
+          </p>
 
-      <table>
-        <tr>
-          <td data-aos="fade-down">Nama :</td>
-          <td data-aos="fade-down" class="list-date">Ananda Maulana Wahyudi</td>
-        </tr>
-        <tr>
-          <td data-aos="fade-down">Jenis Kelamin :</td>
-          <td data-aos="fade-down" class="list-date">Pria</td>
-        </tr>
-        <tr>
-          <td data-aos="fade-down">Tempat Tanggal Lahir :</td>
-          <td data-aos="fade-down" class="list-date">Sumenep, 31 Maret 2003</td>
-        </tr>
+          <table>
+            <tr>
+              <td data-aos="fade-down">Nama :</td>
+              <td data-aos="fade-down" class="list-date">
+                Ananda Maulana Wahyudi
+              </td>
+            </tr>
+            <tr>
+              <td data-aos="fade-down">Jenis Kelamin :</td>
+              <td data-aos="fade-down" class="list-date">Pria</td>
+            </tr>
+            <tr>
+              <td data-aos="fade-down">Tempat Tanggal Lahir :</td>
+              <td data-aos="fade-down" class="list-date">
+                Sumenep, 31 Maret 2003
+              </td>
+            </tr>
 
-        <tr>
-          <td data-aos="fade-down">Alamat :</td>
-          <td data-aos="fade-down" class="list-date">
-            Bangkal, Sumenep, Jawa Timur
-          </td>
-        </tr>
-        <tr>
-          <td data-aos="fade-down">Email :</td>
-          <td data-aos="fade-down" class="list-date">
-            anandamaulanaw1850@gamil.com
-          </td>
-        </tr>
-        <tr>
-          <td data-aos="fade-down">Phone :</td>
-          <td data-aos="fade-down" class="list-date">+62 812-3399-5872</td>
-        </tr>
-      </table>
+            <tr>
+              <td data-aos="fade-down">Alamat :</td>
+              <td data-aos="fade-down" class="list-date">
+                Bangkal, Sumenep, Jawa Timur
+              </td>
+            </tr>
+            <tr>
+              <td data-aos="fade-down">Email :</td>
+              <td data-aos="fade-down" class="list-date">
+                anandamaulanaw1850@gamil.com
+              </td>
+            </tr>
+            <tr>
+              <td data-aos="fade-down">Phone :</td>
+              <td data-aos="fade-down" class="list-date">+62 812-3399-5872</td>
+            </tr>
+          </table>
 
-      <button data-aos="fade-left"><a href=""> Download CV</a></button>
+          <button data-aos="fade-left"><a href=""> Download CV</a></button>
+        </div>
+      </div>
     </div>
 
     <div class="card-content">
@@ -179,67 +190,78 @@
 
     <div id="skills" class="skills">
       <h1 data-aos="fade-left">Technical Skills</h1>
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">HTML</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="90"></div>
-        </div>
-      </div>
+      <div class="containt-skils">
+        <div class="skill-items">
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="90"></div>
+            </div>
+          </div>
 
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">CSS</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="70"></div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="70"></div>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">C++</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="40"></div>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">THAILWIND CSS</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="65"></div>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">BOOSTRAP 5</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="10"></div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">THAILWIND CSS</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="65"></div>
-        </div>
-      </div>
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">BOOSTRAP 5</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="10"></div>
-        </div>
-      </div>
+        <div class="skill-items">
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">Javascript</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="40"></div>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">PHP 8</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="40"></div>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">Laravel 9</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="10"></div>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">EXPRESS JS</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="10"></div>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">NEXT JS</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="10"></div>
+            </div>
+          </div>
 
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">Javascript</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="40"></div>
-        </div>
-      </div>
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">PHP 8</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="40"></div>
-        </div>
-      </div>
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">Laravel 9</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="10"></div>
-        </div>
-      </div>
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">EXPRESS JS</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="10"></div>
-        </div>
-      </div>
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">NEXT JS</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="10"></div>
-        </div>
-      </div>
-
-      <div class="skill" data-aos="fade-down">
-        <div class="skill-name">JQUERY</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="10"></div>
+          <div class="skill" data-aos="fade-down">
+            <div class="skill-name">JQUERY</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="10"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
