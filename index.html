@@ -123,7 +123,7 @@
             </tr>
             <tr>
               <td data-aos="fade-down">Jenis Kelamin :</td>
-              <td data-aos="fade-down" class="list-date">Pria</td>
+              <td data-aos="fade-down" class="list-date">Laki-Laki</td>
             </tr>
             <tr>
               <td data-aos="fade-down">Tempat Tanggal Lahir :</td>
@@ -269,6 +269,27 @@
     <div class="footer">
       <h2>All right reserved AnandaMw <span>@2023</span></h2>
     </div>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", mobileMenu);
+
+      function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      }
+
+      const navLink = document.querySelectorAll(".nav-link");
+
+      navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+      function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+      }
+    </script>
 
     <script>
       AOS.init();

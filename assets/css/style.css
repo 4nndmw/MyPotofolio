@@ -35,14 +35,10 @@ a {
 }
 
 .navbar {
-  width: 100%;
   display: flex;
-  position: fixed;
-  padding: 1.3rem 0px;
-  background-color: var(--color-blck);
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  z-index: 999;
+  padding: 1rem 1.5rem;
 }
 
 .hamburger {
@@ -56,14 +52,14 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  /* background-color: #101010; */
+  background-color: #101010;
 }
 
 .nav-menu {
-  margin-right: 260px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 300px;
 }
 
 .nav-item {
@@ -73,18 +69,19 @@ a {
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
-  color: var(--color-wt);
+  color: #475569;
 }
 
 .nav-link:hover {
-  color: var(--color-rd);
+  color: #482ff7;
 }
 
 .nav-logo {
-  margin-left: 304px;
-  font-size: 2.1rem;
+  font-size: 3rem;
+  margin-right: auto;
+  margin-left: 300px;
   font-weight: 500;
-  color: var(--color-rd);
+  color: #482ff7;
 }
 
 .contact {
@@ -186,7 +183,8 @@ a {
 
 .page2 h1 {
   color: var(--color-wt);
-  font-size: 5rem;
+  font-size: 3.5rem;
+  padding-bottom: 30px;
 }
 .a-bout {
   font-size: 2rem;
@@ -194,9 +192,9 @@ a {
 }
 
 .about-content {
-  gap: 70px;
+  gap: 10px;
   display: flex;
-  max-width: 1200px;
+  max-width: 1000px;
   /* background-color: red; */
   align-items: center;
   /* max-width: 14 00px; */
@@ -205,9 +203,9 @@ a {
   width: 800px;
 }
 .herobout img {
-  padding-right: 50px;
+  width: 300px;
   border-radius: 20px;
-  border: 10px solid white;
+  border: 2px solid white;
 }
 table {
   font-size: 2rem;
@@ -244,7 +242,7 @@ button a {
 }
 .card-title {
   margin: 0px auto;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: var(--color-wt);
 }
 
@@ -362,47 +360,7 @@ button a {
   z-index: 9999;
 }
 
-@media only screen and (max-width: 740px) {
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 5rem;
-    flex-direction: column;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-    background: rgba(0, 0, 0, 0.63);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(0, 0, 0, 0.31);
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
-
-  .nav-item {
-    margin: 2.5rem 0;
-  }
-
-  .hamburger {
-    display: block;
-    cursor: pointer;
-    margin-right: 40px;
-  }
-  .bar {
-    background-color: var(--color-wt);
-    width: 32px;
-  }
-  .nav-logo {
-    margin-left: 40px;
-    color: var(--color-rd);
-    font-size: 2.5rem;
-  }
+@media only screen and (max-width: 780px) {
   .container {
     height: 100vh;
     width: 100%;
@@ -417,8 +375,45 @@ button a {
     display: flex;
     align-items: center;
   }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  .nav-logo {
+    margin-left: 10px;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    margin-right: 40px;
+    display: block;
+    cursor: pointer;
+  }
+
   .herobout {
-    display: none;
+    display: block;
+    width: 500px;
+  }
+
+  .herobout img {
+    width: 230px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
   }
 
   span {
@@ -469,10 +464,10 @@ button a {
   }
 
   .page2 {
-    height: 50vh;
+    height: 80vh;
     display: flex;
-    align-items: flex-start;
-    justify-content: baseline;
+    align-items: center;
+    justify-content: center;
     padding-top: 80px;
     margin-left: 20px;
     flex-direction: column;
@@ -484,7 +479,14 @@ button a {
   .page2 h1 {
     color: var(--color-wt);
     font-size: 2.4rem;
+    text-align: center;
+    padding-block: 20px;
   }
+  .about-content {
+    gap: 5px;
+    max-width: 600px;
+  }
+
   .a-bout {
     font-size: 1rem;
 
@@ -518,7 +520,8 @@ button a {
     color: var(--color-wt);
   }
   .card-content {
-    height: 105vh;
+    padding-block: 20px;
+    height: 60vh;
     width: 100%;
     display: flex;
     align-items: baseline;
@@ -527,6 +530,7 @@ button a {
   }
   .card-title {
     margin: 0px auto;
+    font-size: 2.4rem;
     color: var(--color-wt);
   }
 
@@ -535,6 +539,7 @@ button a {
   }
   .card {
     margin: 0px auto;
+    max-width: 600px;
   }
 
   .card-ctn {
@@ -546,11 +551,12 @@ button a {
   }
   .card-ctn p {
     color: var(--color-wt);
+    font-size: 1rem;
   }
 
   .skills {
     width: 100%;
-    height: 150vh;
+    height: 130vh;
     max-width: 600px;
     padding: 0px 20px;
   }
@@ -558,6 +564,7 @@ button a {
   .skills h1 {
     color: var(--color-wt);
     text-align: center;
+    font-size: 2.4rem;
   }
 
   .skill-name {
@@ -646,19 +653,32 @@ button a {
     align-items: center;
   }
 
+  .card-content {
+    height: 80vh;
+  }
+
+  .skills {
+    height: 100vh;
+  }
+
   .skills {
     height: 140vh;
     padding-block: 50px;
   }
 
+  .skills h1 {
+    font-size: 2.4rem;
+  }
+
   .date {
-    padding-top: 100px;
+    padding-top: 20px;
+    margin-left: 20px;
   }
   .page2 {
     height: 50vh;
     display: flex;
-    align-items: flex-start;
-    justify-content: baseline;
+    align-items: baseline;
+    justify-content: flex-start;
     padding-top: 80px;
     margin-left: 20px;
     flex-direction: column;
@@ -669,19 +689,24 @@ button a {
 
   .card-title {
     padding-block-start: 80px;
+    font-size: 2rem;
   }
   .about-content {
-    gap: 70px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .herobout {
+    display: none;
   }
 
   .page2 h1 {
     color: var(--color-wt);
     padding: 20px 0px;
+    font-size: 2.4rem;
   }
   .card-content {
-    height: 120vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: baseline;
