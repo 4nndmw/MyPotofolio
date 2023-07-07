@@ -111,7 +111,7 @@ a {
   background-repeat: no-repeat;
   background-size: 920px;
   background-attachment: fixed;
-  background-position-x: 1010px;
+  background-position-x: 610px;
   background-position-y: -1px;
   color: #eaeaea;
   display: flex;
@@ -235,7 +235,7 @@ button a {
   color: var(--color-wt);
 }
 .card-content {
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   align-items: baseline;
@@ -280,7 +280,7 @@ button a {
 }
 
 .skills {
-  height: 120vh;
+  height: 140vh;
   width: 100%;
   margin: 0px auto;
   padding: 0px 20px;
@@ -362,13 +362,12 @@ button a {
   z-index: 9999;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 740px) {
   .nav-menu {
     position: fixed;
     left: -100%;
     top: 5rem;
     flex-direction: column;
-
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -393,27 +392,27 @@ button a {
   .hamburger {
     display: block;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 40px;
   }
   .bar {
     background-color: var(--color-wt);
     width: 32px;
   }
   .nav-logo {
-    margin-left: 20px;
+    margin-left: 40px;
     color: var(--color-rd);
     font-size: 2.5rem;
   }
   .container {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-image: url("../images/nanda.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 950px;
+    background-size: 1000px;
     background-attachment: fixed;
-    background-position-x: -160px;
-    background-position-y: -1px;
+    background-position-x: 130px;
+    background-position-y: -31px;
     color: #eaeaea;
     display: flex;
     align-items: center;
@@ -426,8 +425,8 @@ button a {
     color: var(--color-rd);
   }
   .date {
-    margin-top: -90px;
-    margin-left: 20px;
+    margin-top: 90px;
+    margin-left: 40px;
   }
   .date h1 {
     font-size: 4.6rem;
@@ -519,7 +518,7 @@ button a {
     color: var(--color-wt);
   }
   .card-content {
-    height: 65vh;
+    height: 105vh;
     width: 100%;
     display: flex;
     align-items: baseline;
@@ -551,7 +550,7 @@ button a {
 
   .skills {
     width: 100%;
-    height: 120vh;
+    height: 150vh;
     max-width: 600px;
     padding: 0px 20px;
   }
@@ -631,9 +630,9 @@ button a {
     z-index: 9999;
   }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
   .container {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-image: url("../images/nanda.jpg");
     background-position: center;
@@ -646,8 +645,17 @@ button a {
     display: flex;
     align-items: center;
   }
+
+  .skills {
+    height: 140vh;
+    padding-block: 50px;
+  }
+
+  .date {
+    padding-top: 100px;
+  }
   .page2 {
-    height: 80vh;
+    height: 50vh;
     display: flex;
     align-items: flex-start;
     justify-content: baseline;
@@ -657,6 +665,10 @@ button a {
     -webkit-box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
     -moz-box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
     box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
+  }
+
+  .card-title {
+    padding-block-start: 80px;
   }
   .about-content {
     gap: 70px;
@@ -669,7 +681,7 @@ button a {
     padding: 20px 0px;
   }
   .card-content {
-    height: 80vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     align-items: baseline;
