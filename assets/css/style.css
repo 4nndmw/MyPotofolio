@@ -366,7 +366,108 @@ button a {
   z-index: 9999;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 900px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+
+    background: rgba(0, 0, 0, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(0, 0, 0, 0.49);
+  }
+  .nav-logo {
+    margin-left: 10px;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    margin-right: 10px;
+    display: block;
+    cursor: pointer;
+  }
+  .date {
+    margin-top: 90px;
+    margin-left: 25px;
+  }
+
+  .container {
+    height: 100vh;
+
+    width: 100%;
+    background-position: center;
+    background-size: 1000px;
+    background-attachment: fixed;
+    background-position-x: 80px;
+    background-position-y: -31px;
+    color: #eaeaea;
+    display: flex;
+    align-items: center;
+  }
+
+  .herobout {
+    display: block;
+    width: 100px;
+  }
+  .herobout img {
+    width: 200px;
+  }
+  .a-bout {
+    font-size: 1.3rem;
+  }
+
+  .about-content {
+    /* gap: 10px; */
+    display: flex;
+    max-width: 700px;
+    align-items: center;
+  }
+  .herobout {
+    width: 500px;
+  }
+
+  table {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    color: var(--color-wt);
+  }
+  .list-date {
+    padding-left: 20px;
+    color: var(--color-grey);
+  }
+  td {
+    padding-bottom: 10px;
+  }
+
+  button {
+    border: 1px solid var(--color-rd);
+    background-color: rgba(255, 0, 0, 0.221);
+    padding: 8px 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+  }
+
+  button a {
+    color: var(--color-wt);
+  }
+}
+
+@media only screen and (max-width: 640px) {
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -404,6 +505,7 @@ button a {
 
   .container {
     height: 100vh;
+
     width: 100%;
     background-position: center;
     background-size: 1000px;
@@ -415,18 +517,16 @@ button a {
     align-items: center;
   }
   .herobout {
-    display: block;
-    width: 500px;display: none;
+    display: none;
+    width: 500px;
   }
-
-
 
   span {
     color: var(--color-rd);
   }
   .date {
     margin-top: 90px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .date h1 {
     font-size: 4.6rem;
@@ -469,11 +569,10 @@ button a {
   }
 
   .page2 {
-    height: 80vh;
-    display: flex;
+    height: 50vh;
     align-items: center;
     justify-content: center;
-    padding-top: 80px;
+    margin-right: 20px;
     margin-left: 20px;
     flex-direction: column;
     -webkit-box-shadow: 1px -18px 74px 68px rgba(0, 0, 0, 1);
@@ -485,7 +584,6 @@ button a {
     color: var(--color-wt);
     font-size: 2.4rem;
     text-align: center;
-    padding-block: 20px;
   }
   .about-content {
     gap: 5px;
@@ -496,7 +594,6 @@ button a {
     font-size: 1rem;
 
     margin-top: 10px;
-    margin-right: 20px;
     color: var(--color-grey);
   }
 
