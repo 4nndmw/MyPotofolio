@@ -649,7 +649,7 @@ button a {
     z-index: 9999;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
   .nav-logo {
     margin-left: 5px;
   }
