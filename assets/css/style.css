@@ -377,7 +377,7 @@ button a {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-    /* From https://css.glass */
+
     background: rgba(0, 0, 0, 0.31);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -405,12 +405,10 @@ button a {
   .container {
     height: 100vh;
     width: 100%;
-    background-image: url("../images/nanda.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: 1000px;
     background-attachment: fixed;
-    background-position-x: 130px;
+    background-position-x: -80px;
     background-position-y: -31px;
     color: #eaeaea;
     display: flex;
@@ -418,15 +416,10 @@ button a {
   }
   .herobout {
     display: block;
-    width: 500px;
+    width: 500px;display: none;
   }
 
-  .herobout img {
-    width: 230px;
-    padding-right: 50px;
-    border-radius: 20px;
-    border: 1px solid white;
-  }
+
 
   span {
     color: var(--color-rd);
@@ -649,7 +642,7 @@ button a {
     z-index: 9999;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 350px) {
   .nav-logo {
     margin-left: 5px;
   }
