@@ -17,34 +17,31 @@
   <body>
     <!-- navigation -->
 
-    <nav class="navbar">
-      <a href="#" class="nav-logo" data-aos="fade-down" data-aos-duration="3000"
-        >NndDev.</a
-      >
-      <ul class="nav-menu" data-aos="fade-left" data-aos-duration="3000">
-        <li class="nav-item">
-          <a href="#home" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#skills" class="nav-link">My Skills</a>
-        </li>
-        <li class="nav-item">
-          <a href="./portfolio/index.html" class="nav-link">Portofolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Contact</a>
-        </li>
-      </ul>
-      <div class="hamburger" data-aos="fade-right" data-aos-duration="3000">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
-
+      <nav class="navbar">
+        <a href="#" class="nav-logo">WebDev.</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Me</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     <!-- end navigation -->
     <div id="home" class="container">
       <div class="date">
@@ -269,27 +266,6 @@
     <div class="footer">
       <h2>All right reserved AnandaMw <span>@2023</span></h2>
     </div>
-
-    <script>
-      const hamburger = document.querySelector(".hamburger");
-      const navMenu = document.querySelector(".nav-menu");
-
-      hamburger.addEventListener("click", mobileMenu);
-
-      function mobileMenu() {
-        hamburger.classList.toggle("active");
-        navMenu.classList.toggle("active");
-      }
-
-      const navLink = document.querySelectorAll(".nav-link");
-
-      navLink.forEach((n) => n.addEventListener("click", closeMenu));
-
-      function closeMenu() {
-        hamburger.classList.remove("active");
-        navMenu.classList.remove("active");
-      }
-    </script>
 
     <script>
       AOS.init();
