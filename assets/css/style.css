@@ -256,6 +256,7 @@ button a {
   flex-direction: column;
 }
 .card-title {
+  overflow-y: hidden;
   cursor: pointer;
   margin: 0px auto;
   font-size: 3.5rem;
@@ -632,6 +633,7 @@ button a {
 
 .embed h1 {
   cursor: pointer;
+  overflow-y: hidden;
   font-size: 4rem;
   padding-bottom: 50px;
   color: var(--color-wt);
@@ -658,8 +660,6 @@ iframe {
 }
 
 iframe:hover {
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
   transition: all 0.1s ease-in-out;
   -webkit-box-shadow: 0px 0px 17px 6px rgba(173, 3, 3, 1);
   -moz-box-shadow: 0px 0px 17px 6px rgba(173, 3, 3, 1);
@@ -1095,7 +1095,9 @@ textarea {
   }
 
   .embed {
-    height: 75vh;
+    overflow-y: hidden;
+    height: 60vh;
+    overflow-y: hidden;
   }
 
   .embed h1 {
@@ -1105,15 +1107,16 @@ textarea {
   }
 
   .containtembed {
-    max-width: 330px;
+    max-width: 430px;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
   .size-embed iframe {
-    width: 250px;
+    width: 350px;
     height: 150px;
+    overflow-y: hidden;
   }
 
   /* .containkel {
@@ -1128,6 +1131,15 @@ textarea {
     padding-top: 130px;
     color: var(--color-wt);
   } */
+
+  .containt-contact {
+    height: 70vh;
+    padding-top: 70px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color: var(--color-wt);
+  }
 
   #preloader {
     background: #000 url(../images/preloader1.gif) no-repeat center center;
