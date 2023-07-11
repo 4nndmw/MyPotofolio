@@ -561,7 +561,6 @@ button a {
 
 .containkel {
   height: 130vh;
-  background-color: red;
   max-width: 1000px;
   display: flex;
   align-items: baseline;
@@ -882,7 +881,7 @@ textarea {
     color: var(--color-rd);
   }
   .date {
-    margin-top: 170px;
+    margin-top: 100px;
     margin-left: 20px;
   }
   .date h1 {
@@ -986,7 +985,6 @@ textarea {
     justify-content: baseline;
     flex-direction: column;
     position: relative;
-    background-color: red;
   }
   .card-title {
     margin: 0px auto;
@@ -1256,7 +1254,6 @@ textarea {
   .card-content {
     height: 80vh;
     width: 100%;
-    background-color: red;
     display: flex;
     align-items: baseline;
     justify-content: baseline;
