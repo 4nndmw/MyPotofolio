@@ -144,3 +144,22 @@ function slideIndicator(toIndex) {
   dotActive.classList.remove("carousel_dot__active");
   newDotActive.classList.add("carousel_dot__active");
 }
+
+
+
+
+
+
+
+
+
+
+// skills
+
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
