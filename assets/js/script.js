@@ -1,3 +1,6 @@
+  // 
+//  start navbar ======================================
+  // 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -16,41 +19,28 @@ function closeMenu() {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }
+  // 
+//  navbar end ======================================
+  // 
 
-// slide
 
-$(".skill-per").each(function () {
-  var $this = $(this);
-  var per = $this.attr("per");
-  $this.css("width", per + "%");
-  $({ animatedValue: 0 }).animate(
-    { animatedValue: per },
-    {
-      duration: 1000,
-      step: function () {
-        $this.attr("per", Math.floor(this.animatedValue) + "%");
-      },
-      complete: function () {
-        $this.attr("per", Math.floor(this.animatedValue) + "%");
-      },
-    }
-  );
-});
 
-// preloader
-
+  // 
+//  start preloader ======================================
+  // 
 var loader = document.getElementById("preloader");
 
 window.addEventListener("load", function () {
   loader.style.display = "none";
 });
-var loader = document.getElementById("preloader");
+  // 
+// preloader end ======================================
+  // 
 
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    loader.style.display = "none";
-  }, 2000); // 2000 milliseconds = 2 seconds
-});
+
+  // 
+//  start slideIndicator ======================================
+//           
 
 let onSlide = false;
 
@@ -145,9 +135,9 @@ function slideIndicator(toIndex) {
   newDotActive.classList.add("carousel_dot__active");
 }
 
-
-
-
+  // 
+// slideIndicator end ======================================
+//                
 
 
 

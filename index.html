@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+  <div id="preloader"></div>
   <!--[][][][][][][][][][][][][][][][][][]
   []                                      []
 []              NAVIGATION PAGE             []
@@ -89,6 +89,8 @@
           <a data-aos="fade-up" data-aos-duration="2000" href="https://t.me/nndmw" class="fa-brands fa-telegram"></a>
           <a data-aos="fade-up" data-aos-duration="3000" href="https://github.com/4nndmw?tab=repositories"
             class="fa-brands fa-github"></a>
+          <a data-aos="fade-up" data-aos-duration="3000" href="https://www.linkedin.com/in/ananda-mw-5b912426b/"
+            class="fa-brands fa-linkedin"></a>
         </div>
       </div>
       <div class="hero">
@@ -156,13 +158,13 @@
               <td data-aos="fade-down" class="list-date">: +62 812-0000-000</td>
             </tr>
           </table>
-
           <button class="btndown" data-aos="fade-left">
             <a href="./assets/Ananda Maulana W.pdf" download> Download CV</a>
           </button>
         </div>
       </div>
     </div>
+
   </section>
   <!--[][][][][][][][][]
   []                    []
@@ -176,7 +178,7 @@
     [][][][][][][][][][][][][][][][][][]-->
   <section>
     <div id="port">
-      <h1 class="title-porto" data-aos="fade-right">Responsive Design</h1>
+      <h1 class="title-porto fa-solid fa-layer-group" data-aos="fade-right"><span>Responsive Design</span></h1>
       <div class="carousel" data-aos="fade-down">
         <div class="carousel_inner">
           <div class="carousel_item carousel_item__active">
@@ -229,11 +231,91 @@
   []                                    []
     [][][][][][][][][][][][][][][][][][]-->
   <section>
-    <div class="skills-container">
 
+    <div class="skills_section" id="skills">
+      <div class="skills_head">
 
+        <h2 class="fa-solid fa-code"><span>Skills</span></h2>
+        <p>Here is my skills to represent my Expertise</p>
+      </div>
 
+      <div class="skills_main">
+        <div class="skill_bar">
+          <div class="info">
+            <p>HTML</p>
+            <P>90%</P>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>CSS</p>
+            <P>85%</P>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>SASS</p>
+            <P>80%</P>
+          </div>
+          <div class="bar">
+            <span class="sass"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Java Script</p>
+            <P>80%</P>
+          </div>
+          <div class="bar">
+            <span class="js"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>React js</p>
+            <P>75%</P>
+          </div>
+          <div class="bar">
+            <span class="react"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Node js</p>
+            <P>70%</P>
+          </div>
+          <div class="bar">
+            <span class="node"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Express js</p>
+            <P>65%</P>
+          </div>
+          <div class="bar">
+            <span class="express"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Mongo DB</p>
+            <P>60%</P>
+          </div>
+          <div class="bar">
+            <span class="mongo"></span>
+          </div>
+        </div>
+      </div>
     </div>
+
+
   </section>
 
 
@@ -327,7 +409,7 @@
 
   <section>
     <div class="embed">
-      <h1 data-aos="fade-left">Media</h1>
+      <h1 data-aos="fade-left" class="fa-brands fa-youtube"><span>Media</span></h1>
       <div class="containtembed">
         <div class="size-embed" data-aos="fade-down">
           <iframe width="440" height="215" src="https://www.youtube.com/embed/vf8NpbVEBko" title="YouTube video player"
@@ -346,16 +428,13 @@
   </section>
 
   <section>
-    <div class="containt-contact" id="contact">
+    <div class="containt-contact " id="contact">
       <div class="column-contact">
-        <h1>Contact Us</h1>
+        <h1 class="fa-solid fa-address-book"><span>Contact Me</span></h1>
         <div class="">
           <form method="POST" action="https://formspree.io/f/mknlnqdq">
-            <label for="username">Username </label>
             <input type="text" name="Username" id="username" placeholder="Username" uppercase />
 
-            <label for="email">Email </label>
-            <input type="text" name="Email" id="email" placeholder="Email" />
             <textarea placeholder="Message" name="Message" type="Message"></textarea>
             <button class="submit" type="submit" name="submit" id="submit">
               Submit
@@ -376,6 +455,7 @@
   <script src="./assets/js/script.js"></script>
   <script src="particles.js"></script>
   <script src="app.js"></script>
+
 </body>
 
 </html>
