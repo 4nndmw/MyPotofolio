@@ -205,19 +205,19 @@ a {
   border-bottom: 1px solid var(--color-wt);
 }
 
-.icons a:nth-child(1):hover{
+.icons a:nth-child(1):hover {
   color: var(--color-pink);
 }
 
-.icons a:nth-child(2):hover{
-  color: var(--color-bluetele); 
+.icons a:nth-child(2):hover {
+  color: var(--color-bluetele);
 }
 
-.icons a:nth-child(3):hover{
+.icons a:nth-child(3):hover {
   color: var(--color-gc);
 }
 
-.icons a:nth-child(4):hover{
+.icons a:nth-child(4):hover {
   color: var(--color-bluelinked);
 }
 
@@ -824,61 +824,4 @@ iframe:hover {
   -webkit-box-shadow: 0px 0px 17px 6px rgba(173, 3, 3, 1);
   -moz-box-shadow: 0px 0px 17px 6px rgba(173, 3, 3, 1);
   box-shadow: 0px 0px 17px 6px rgba(173, 3, 3, 1);
-}
-
-.containt-contact {
-  height: 70vh;
-  padding-top: 40px;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  color: var(--color-wt);
-}
-
-.column-contact {
-  padding: 20px;
-  width: 900px;
-  text-align: center;
-  border-radius: 8px;
-  background-color: var(--color-gc);
-}
-
-.containt-contact h1 {
-  cursor: pointer;
-  font-size: 4rem;
-  overflow-y: hidden;
-}
-
-.containt-contact span {
-  padding: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-
-
-form input,
-textarea {
-  width: 100%;
-  height: 30px;
-  margin: 5px;
-  padding: 8px;
-}
-
-textarea {
-  height: 100px;
-}
-
-.submit {
-  color: var(--color-wt);
-  cursor: pointer;
-  font-size: 2rem;
-}
-
-.submit:hover {
-  background-color: var(--color-rd);
 }
