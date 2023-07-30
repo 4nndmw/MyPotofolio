@@ -133,13 +133,13 @@ a {
   z-index: 9999;
 }
 
-.hero {
+.myhero {
   position: absolute;
   right: 110px;
   margin-top: 80px;
 }
 
-.hero img {
+.myhero img {
   width: 780px;
 }
 
@@ -255,6 +255,7 @@ a {
   display: flex;
   max-width: 1000px;
   align-items: center;
+  justify-content: center;
 }
 
 .btndown:hover {
@@ -276,7 +277,6 @@ a {
 
 table {
   font-size: 2rem;
-
   margin-top: 20px;
   color: var(--color-wt);
 }
@@ -346,7 +346,7 @@ button a {
 
 
 /* carousel */
-#port {
+.port-container {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -836,7 +836,6 @@ iframe {
 }
 
 .size-embed {
-  /* background-color: red; */
   width: 528px;
   height: 360px;
   padding: 50px;
@@ -852,7 +851,7 @@ iframe:hover {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -883,7 +882,432 @@ iframe:hover {
     display: block;
     cursor: pointer;
   }
+
+  .date {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 50px;
+  }
+
+  .myhero {
+    right: -130px;
+  }
+
+  .myhero img {
+    width: 780px;
+  }
+
+  .about-content {
+    max-width: 700px;
+  }
+
+  .herobout {
+    width: 800px;
+  }
+
+  .herobout img {
+    cursor: pointer;
+    width: 240px;
+    border-radius: 2rem;
+    border: 2px solid var(--color-gc);
+  }
+
+  .carousel {
+    margin: 0px 100px;
+  }
+
 }
+
+
+@media only screen and (max-width: 768px) {
+
+
+  .date {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 50px;
+  }
+
+  .myhero {
+    right: -130px;
+  }
+
+  .myhero img {
+    width: 780px;
+  }
+
+  .about-content {
+    max-width: 700px;
+  }
+
+
+  .page2 {
+    /* background-color: red; */
+    height: 100vh;
+
+  }
+
+  .page2 h1 {
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  .page2 h1 span {
+    padding: 20px;
+  }
+
+  .a-bout {
+    font-size: 1rem;
+  }
+
+  .about-content {
+    max-width: 600px;
+    justify-content: center;
+  }
+
+  .herobout {
+    width: 320px;
+  }
+
+  .herobout img {
+    display: block;
+    width: 180px;
+  }
+
+
+  table {
+    font-size: 1rem;
+  }
+
+
+
+
+  .carousel {
+    margin: 0px 100px;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+  .date {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 50px;
+  }
+
+  .myhero {
+    right: -130px;
+  }
+
+  .myhero img {
+    width: 780px;
+  }
+
+  .about-content {
+    max-width: 700px;
+  }
+
+
+  .page2 {
+    height: 60vh;
+
+  }
+
+  .page2 h1 {
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .page2 h1 span {
+    padding: 20px;
+  }
+
+  .about-content {
+    max-width: 400px;
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+  }
+
+  .herobout {
+    width: 320px;
+    width: 180px;
+    display: none;
+  }
+
+
+
+  table {
+    font-size: 1rem;
+  }
+
+  .a-bout {
+    font-size: 1rem;
+  }
+
+
+  .port-container {
+    height: 60vh;
+  }
+
+
+  .carousel {
+    margin: 0px 50px;
+  }
+
+  .skills_main {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .skills_section {
+    width: 100%;
+    height: 120vh;
+    padding: 0px 13%;
+    color: var(--color-wt);
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .skills_main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+
+  .page-edc {
+    display: flex;
+    flex-wrap: wrap;
+    height: 170vh;
+    /* background-color: #0A66C2; */
+
+  }
+
+
+  .embed {
+    height: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+  }
+
+  .embed h1 {
+    margin-top: 40px;
+    padding: 21px 0;
+
+  }
+
+  .containtembed {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .size-embed {
+    width: 328px;
+    height: 240px;
+    padding: 10px 50px;
+    /* background-color: red; */
+    margin-left: -20px;
+  }
+
+  .size-embed iframe {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar humburger */
 
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
