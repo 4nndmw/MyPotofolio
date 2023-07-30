@@ -1089,14 +1089,14 @@ iframe:hover {
   .page-edc {
     display: flex;
     flex-wrap: wrap;
-    height: 170vh;
+    height: 200vh;
     /* background-color: #0A66C2; */
 
   }
 
 
   .embed {
-    height: 160vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: baseline;
