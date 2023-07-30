@@ -993,18 +993,30 @@ iframe:hover {
 
 @media only screen and (max-width: 450px) {
 
+
   .date {
-    position: absolute;
-    margin-top: 130px;
-    margin-left: 50px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    z-index: 99;
   }
 
+  .date span {
+    color: var(--color-rd);
+  }
+
+  .date h1 {
+    font-size: 4.6rem;
+  }
+
+
   .myhero {
-    right: -130px;
+    right: -300px;
+    z-index: 1;
   }
 
   .myhero img {
-    width: 780px;
+    width: 800px;
   }
 
   .about-content {
@@ -1016,6 +1028,8 @@ iframe:hover {
     height: 60vh;
 
   }
+
+
 
   .page2 h1 {
     font-size: 2.5rem;
@@ -1050,6 +1064,10 @@ iframe:hover {
     font-size: 1rem;
   }
 
+  .title-porto {
+
+    font-size: 2.5rem;
+  }
 
   .port-container {
     height: 60vh;
@@ -1058,6 +1076,21 @@ iframe:hover {
 
   .carousel {
     margin: 0px 50px;
+  }
+
+  .skills_head {
+    margin-bottom: 50px;
+
+  }
+
+  .skills_head h2 {
+    font-size: 2.5rem;
+
+  }
+
+  .skills_head p {
+    padding: 5px;
+    font-size: 1rem;
   }
 
   .skills_main {
@@ -1106,7 +1139,8 @@ iframe:hover {
   .embed h1 {
     margin-top: 40px;
     padding: 21px 0;
-
+    font-size: 2.5rem;
+    font-weight: bold;
   }
 
   .containtembed {
